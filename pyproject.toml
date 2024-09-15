@@ -1,0 +1,40 @@
+[project]
+name = "biodataviz"
+version = "0.0.1"
+authors = [
+  { name="Dennis Doll", email="ddoll@indocresearch.org" }
+]
+description = "Visualize your data, perform statistical analysis, and learn python."
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.12"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "jupyterlab>=4.2.5"
+    "ipywidgets>=8.1.5"
+    "jupyterlab_widgets>=3.0.13"
+    "matplotlib>=3.9.2"
+    "numpy>=2.1.1"
+    "pandas>=2.2.2"
+    "pingouin>=0.5.5"
+    "seaborn>=0.13.2"
+]
+
+[build-system]
+requires = ["setuptools>=70.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/Indoc-Research/BioDataViz"
+Issues = "https://github.com/Indoc-Research/BioDataViz/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
