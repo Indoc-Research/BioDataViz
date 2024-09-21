@@ -16,14 +16,14 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "jupyterlab>=4.2.5"
-    "ipywidgets>=8.1.5"
-    "jupyterlab_widgets>=3.0.13"
-    "matplotlib>=3.9.2"
-    "numpy>=2.1.1"
-    "pandas>=2.2.2"
-    "pingouin>=0.5.5"
-    "seaborn>=0.13.2"
+    "jupyterlab>=4.2.5",
+    "ipywidgets>=8.1.5",
+    "jupyterlab_widgets>=3.0.13",
+    "matplotlib>=3.9.2",
+    "numpy>=2.1.1",
+    "pandas>=2.2.2",
+    "pingouin>=0.5.5",
+    "seaborn>=0.13.2",
 ]
 
 [build-system]
